@@ -1,0 +1,104 @@
+body {
+    background-attachment: fixed;
+}
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+
+
+ul {
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    letter-spacing: .2rem;
+   
+
+}
+
+li {
+
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+ 
+#mhead {
+
+   text-align: center; 
+   color: brown;
+   margin-top: 50px;
+}
+
+#cohead {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#tbp, #bt, #gm, #gow, #ham {
+    background-color: lightgray;
+    width: 400px;
+    height: 200px;
+    border: 2px solid brown;
+    padding: 25px;
+    margin: 20px;
+    margin-left: 700;
+    
+   
+}
+
+#tbp {
+    background: url(https://m.media-amazon.com/images/I/61Nw3sNQGLL._SL500_.jpg);
+    background-size: cover;
+}
+
+#bt {
+    background: url(https://images.pangobooks.com/book_images/jsRfElXD3uUBXybDOEBCeeQDdCn1/1668405941126_jsRfElXD3uUBXybDOEBCeeQDdCn1?width=800&quality=85&crop=1%3A1);
+    background-size: cover;
+}
+
+#gm {
+    background: url(https://gmanbook.com/wp-content/uploads/2022/09/g-man-book-cover-beverly-gage.png);
+    background-size: cover;
+}
+
+#gow {
+    background: url(https://i0.wp.com/chireviewofbooks.com/wp-content/uploads/2022/07/GodsOfWant_1920x675.jpg?resize=740%2C600&ssl=1);
+    background-size: cover;
+}
+
+#ham {
+    background: url(https://www.toa.st/cdn/shop/articles/hamnet-by-maggie-ofarrell-book-club-44D5D507-A016-453B-8754-1B813256EBFE.jpg?v=1604932035);
+    background-size: cover;
+}
+
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0px;
+
+    width: 100%;
+    height: 20px;
+    background: brown;
+    text-align: center;
+    
+    
+   
+}
